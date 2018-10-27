@@ -1,6 +1,7 @@
 package com.bulsoft.zoomautomation.testcases;
 
 import com.bulsoft.zoomautomation.drivermanager.DriverManager;
+import com.bulsoft.zoomautomation.listeners.ScreenShotListener;
 import com.bulsoft.zoomautomation.pageobjects.ContactSalePage;
 import com.bulsoft.zoomautomation.pageobjects.ContactSalesResponsePage;
 import com.bulsoft.zoomautomation.pageobjects.MainNavigation;
@@ -8,8 +9,10 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners({ScreenShotListener.class})
 public class ContactPageTest {
     WebDriver driver;
     MainNavigation navigation;
@@ -42,7 +45,7 @@ public class ContactPageTest {
                 .inputZip("L5M6C7")
                 .writeDescription("Please provide info")
                 .clickSubmitBtn();
-        Assert.assertTrue(responsePage.getFormConfirmationMsg().getText().toUpperCase().contains("THANK"));
+        Assert.assertTrue(responsePage.getFormConfirmationMsg().getText().toUpperCase().contains("WOW"));
     }
 
     @AfterSuite
