@@ -1,10 +1,12 @@
 package com.bulsoft.zoomautomation.testcases;
 
+import com.bulsoft.zoomautomation.configuration.DriverConfig;
 import com.bulsoft.zoomautomation.drivermanager.DriverManager;
 import com.bulsoft.zoomautomation.listeners.ScreenShotListener;
 import com.bulsoft.zoomautomation.pageobjects.ContactSalePage;
 import com.bulsoft.zoomautomation.pageobjects.ContactSalesResponsePage;
 import com.bulsoft.zoomautomation.pageobjects.MainNavigation;
+import com.bulsoft.zoomautomation.utils.CommonUtils;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
@@ -22,7 +24,7 @@ public class ContactPageTest {
     @BeforeSuite
     public void setUp(){
         driver = DriverManager.getInstance();
-        driver.get("https://zoom.us/");
+        driver.get(DriverConfig.getPropertyValue("site.url"));
         navigation = new MainNavigation(driver);
     }
 
@@ -45,6 +47,8 @@ public class ContactPageTest {
                 .inputZip("L5M6C7")
                 .writeDescription("Please provide info")
                 .clickSubmitBtn();
+
+        //CommonUtils.takeScreenCapture(driver,"LoginTest");
         Assert.assertTrue(responsePage.getFormConfirmationMsg().getText().toUpperCase().contains("WOW"));
     }
 

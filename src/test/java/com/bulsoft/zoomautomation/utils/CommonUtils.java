@@ -14,14 +14,26 @@ import java.time.LocalTime;
 
 public class CommonUtils {
 
-    public static void takeScreenCapture(WebDriver driver, String testCaseName){
-
+    public static void takeScreenCapture(WebDriver driver, String testCaseName, String type){
+        Path path;
         try{
-            Path path = Paths.get("target/screenshot/failure/");
+            if(type.equals(Constants.PASS)){
+                 path = Paths.get("target/screenshot/pass/");
+            }else {
+                 path = Paths.get("target/screenshot/failure/");
+            }
+
             Files.createDirectories(path);
             File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            Files.copy(new FileInputStream(screenshot),
-                    Paths.get("target/screenshot/failure/"+getFileName(testCaseName)));
+
+            if(type.equals(Constants.PASS)){
+                Files.copy(new FileInputStream(screenshot),
+                        Paths.get("target/screenshot/pass/"+getFileName(testCaseName)));
+            }else {
+                Files.copy(new FileInputStream(screenshot),
+                        Paths.get("target/screenshot/failure/"+getFileName(testCaseName)));
+            }
+
 
         }catch (Exception ex){
             ex.printStackTrace();
