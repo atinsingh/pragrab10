@@ -74,12 +74,35 @@ public class ExcelDataReader {
             List<Object> cellData = new ArrayList<>();
             while (cellIterator.hasNext()){
                 Cell cell = cellIterator.next();
-                cellData.add(cell.getStringCellValue());
+                // Read Cell data correctly
+
+                cellData.add(getCellData(cell));
 
             }
             dataSet.add(cellData.toArray());
         }
         return dataSet;
         //
+    }
+
+    private Object getCellData(Cell cell){
+        Object obj;
+        switch (cell.getCellTypeEnum()){
+            case NUMERIC:
+                obj = cell.getNumericCellValue();
+                break;
+            case STRING:
+                obj = cell.getStringCellValue();
+                break;
+            case FORMULA:
+                obj = cell.getStringCellValue();
+                break;
+            case BOOLEAN:
+                obj = cell.getBooleanCellValue();
+                break;
+                default:
+                    obj = cell.getStringCellValue();
+        }
+        return  obj;
     }
 }

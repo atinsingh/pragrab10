@@ -28,5 +28,11 @@ public class SimpleDataProvider {
         return reader.readExcelData("LoginData",true).iterator();
     }
 
+    @DataProvider(name = "empDataProvider")
+    public static Iterator<Object[]> empDataProvider(){
+        ExcelDataReader reader = new ExcelDataReader();
+        return reader.readExcelData("Dashboard",true).iterator();
+    }
+
 
 }

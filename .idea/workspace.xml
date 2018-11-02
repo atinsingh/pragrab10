@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59f5f538-6413-4b4f-b676-f92bcf25ab69" name="Default Changelist" comment="Added the Code for ScreenSHot, will refactor it">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/DBDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/SimpleDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="59f5f538-6413-4b4f-b676-f92bcf25ab69" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/ExcelDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/ExcelDataReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/driver.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/driver.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/ExcelDataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/ExcelDataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/SimpleDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/SimpleDataProvider.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,23 +27,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6632" />
+          <entry key="java" value="7089" />
           <entry key="properties" value="233" />
-          <entry key="txt" value="77" />
+          <entry key="txt" value="131" />
           <entry key="xml" value="154" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6632" />
-          <entry key="PLAIN_TEXT" value="77" />
+          <entry key="JAVA" value="7089" />
+          <entry key="PLAIN_TEXT" value="131" />
           <entry key="Properties" value="233" />
           <entry key="XML" value="154" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="19" />
+          <entry key="java" value="29" />
           <entry key="jpeg" value="1" />
           <entry key="png" value="2" />
           <entry key="properties" value="1" />
@@ -57,7 +53,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="19" />
+          <entry key="JAVA" value="29" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="3" />
         </counts>
@@ -67,43 +63,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="25" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/utils/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/ContactPageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/SimpleTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="291">
-              <caret line="32" column="91" selection-start-line="32" selection-start-column="91" selection-end-line="32" selection-end-column="91" />
+              <caret line="40" column="87" selection-start-line="40" selection-start-column="72" selection-end-line="40" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8-sources.jar!/org/testng/internal/Invoker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="1230" selection-start-line="1230" selection-end-line="1230" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8-sources.jar!/org/testng/internal/TestMethodWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="113" selection-start-line="113" selection-end-line="113" />
             </state>
           </provider>
         </entry>
@@ -111,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/SimpleDataProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="24" column="43" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="43" />
+            <state relative-caret-position="157">
+              <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#144#145#0" expanded="true" />
@@ -123,52 +116,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/driver.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/DBDataProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/ExcelDataReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/TestDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
+            <state relative-caret-position="286">
               <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/ExcelDataReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="100" column="49" selection-start-line="100" selection-start-column="49" selection-end-line="100" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -208,9 +171,9 @@
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/ExcelDataProvider.java" />
         <option value="$PROJECT_DIR$/src/test/resources/driver.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/ExcelDataReader.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/SimpleDataProvider.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/SimpleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/SimpleDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/ExcelDataReader.java" />
       </list>
     </option>
   </component>
@@ -310,7 +273,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541123484985" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541124605189" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -326,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SimpleTest.testLogins">
+  <component name="RunManager" selected="TestNG.SimpleTest.anotherTC">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -341,6 +304,25 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleTest.anotherTC" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="zoomauotmation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bulsoft.zoomautomation.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bulsoft.zoomautomation.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.bulsoft.zoomautomation.testcases.SimpleTest" />
+      <option name="METHOD_NAME" value="anotherTC" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -402,25 +384,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDB.testDB" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="zoomauotmation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bulsoft.zoomautomation.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bulsoft.zoomautomation.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.bulsoft.zoomautomation.testcases.TestDB" />
-      <option name="METHOD_NAME" value="testDB" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="/Users/atinsingh/OneDrive/hireng/zoomauotmation/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="zoomauotmation" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -450,19 +413,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.TestDB.testDB" />
       <item itemvalue="TestNG.SimpleTest.testCase1" />
       <item itemvalue="TestNG./Users/atinsingh/OneDrive/hireng/zoomauotmation/testng.xml" />
       <item itemvalue="TestNG.SimpleTest.testExcelReading" />
       <item itemvalue="TestNG.SimpleTest.testLogins" />
+      <item itemvalue="TestNG.SimpleTest.anotherTC" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SimpleTest.anotherTC" />
         <item itemvalue="TestNG.SimpleTest.testLogins" />
         <item itemvalue="TestNG.SimpleTest.testExcelReading" />
         <item itemvalue="TestNG.SimpleTest.testCase1" />
         <item itemvalue="TestNG./Users/atinsingh/OneDrive/hireng/zoomauotmation/testng.xml" />
-        <item itemvalue="TestNG.TestDB.testDB" />
       </list>
     </recent_temporary>
   </component>
@@ -478,7 +441,7 @@
       <updated>1540651105478</updated>
       <workItem from="1540651114017" duration="9210000" />
       <workItem from="1540947073066" duration="5702000" />
-      <workItem from="1541114612402" duration="5491000" />
+      <workItem from="1541114612402" duration="6601000" />
     </task>
     <task id="LOCAL-00001" summary="Added quit message">
       <created>1540657471817</created>
@@ -494,31 +457,17 @@
       <option name="project" value="LOCAL" />
       <updated>1540661207787</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added DataProvider Function, and ExcelReading">
+      <created>1541123602082</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541123602082</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SimpleTest_testCase1 - 2018.11.01 at 21h 08m 36s.xml">
-      <configuration name="SimpleTest.testCase1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SimpleTest_testCase1 - 2018.11.01 at 21h 11m 06s.xml">
-      <configuration name="SimpleTest.testCase1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SimpleTest_testCase1 - 2018.11.01 at 21h 11m 54s.xml">
-      <configuration name="SimpleTest.testCase1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SimpleTest_testExcelReading - 2018.11.01 at 21h 34m 40s.xml">
-      <configuration name="SimpleTest.testExcelReading" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SimpleTest_testExcelReading - 2018.11.01 at 21h 35m 34s.xml">
-      <configuration name="SimpleTest.testExcelReading" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SimpleTest_testExcelReading - 2018.11.01 at 21h 37m 50s.xml">
-      <configuration name="SimpleTest.testExcelReading" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SimpleTest_testExcelReading - 2018.11.01 at 21h 38m 49s.xml">
-      <configuration name="SimpleTest.testExcelReading" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SimpleTest_testExcelReading - 2018.11.01 at 21h 40m 56s.xml">
       <configuration name="SimpleTest.testExcelReading" configurationId="TestNG" />
     </history-entry>
@@ -528,9 +477,30 @@
     <history-entry file="SimpleTest_testLogins - 2018.11.01 at 21h 47m 35s.xml">
       <configuration name="SimpleTest.testLogins" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="SimpleTest_testLogins - 2018.11.01 at 21h 49m 54s.xml">
+      <configuration name="SimpleTest.testLogins" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SimpleTest_testLogins - 2018.11.01 at 21h 50m 42s.xml">
+      <configuration name="SimpleTest.testLogins" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SimpleTest_testLogins - 2018.11.01 at 21h 52m 11s.xml">
+      <configuration name="SimpleTest.testLogins" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SimpleTest_anotherTC - 2018.11.01 at 22h 00m 15s.xml">
+      <configuration name="SimpleTest.anotherTC" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SimpleTest_anotherTC - 2018.11.01 at 22h 01m 07s.xml">
+      <configuration name="SimpleTest.anotherTC" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SimpleTest_anotherTC - 2018.11.01 at 22h 01m 35s.xml">
+      <configuration name="SimpleTest.anotherTC" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SimpleTest_anotherTC - 2018.11.01 at 22h 02m 16s.xml">
+      <configuration name="SimpleTest.anotherTC" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20403000" />
+    <option name="totallyTimeSpent" value="21513000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -545,7 +515,7 @@
     <frame x="0" y="23" width="1280" height="716" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24555735" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24555735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -554,8 +524,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34134614" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34134614" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39903846" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
@@ -585,7 +555,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added quit message" />
     <MESSAGE value="Added the Code for ScreenSHot, will refactor it" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the Code for ScreenSHot, will refactor it" />
+    <MESSAGE value="Added DataProvider Function, and ExcelReading" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added DataProvider Function, and ExcelReading" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases.java" />
@@ -686,16 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/TestDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/ContactPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
@@ -730,10 +691,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/ExcelDataReader.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8-sources.jar!/org/testng/internal/TestResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+        <state relative-caret-position="138">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+          <folding>
+            <element signature="e#3764#3765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="1230" selection-start-line="1230" selection-end-line="1230" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8-sources.jar!/org/testng/TestNG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="1030" selection-start-line="1030" selection-end-line="1030" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8-sources.jar!/org/testng/SuiteRunnerWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="e#2713#2714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8-sources.jar!/org/testng/SuiteRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="242" selection-start-line="242" selection-end-line="242" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8-sources.jar!/org/testng/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="620" selection-start-line="620" selection-end-line="620" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8-sources.jar!/org/testng/internal/TestMethodWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/TestDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/SimpleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="40" column="87" selection-start-line="40" selection-start-column="72" selection-end-line="40" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -742,8 +775,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/SimpleDataProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="43" />
+        <state relative-caret-position="157">
+          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#144#145#0" expanded="true" />
@@ -752,10 +785,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/SimpleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/ExcelDataReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="32" column="91" selection-start-line="32" selection-start-column="91" selection-end-line="32" selection-end-column="91" />
+        <state relative-caret-position="324">
+          <caret line="100" column="49" selection-start-line="100" selection-start-column="49" selection-end-line="100" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
