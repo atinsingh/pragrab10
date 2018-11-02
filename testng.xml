@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ZoomAutomation">
+    <test name="zoomauotmation">
+
+        <classes>
+
+            <class name="com.bulsoft.zoomautomation.testcases.SimpleTest">
+                <parameter name="firstname" value="Atin"></parameter>
+                <parameter name="lastname" value="Singh"></parameter>
+
+            </class> <!-- com.bulsoft.zoomautomation.testcases.SimpleTest -->
+        </classes>
+    </test> <!-- zoomauotmation -->
+</suite> <!-- Default Suite -->
