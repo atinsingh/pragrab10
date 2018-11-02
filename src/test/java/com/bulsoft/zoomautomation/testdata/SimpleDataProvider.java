@@ -31,7 +31,12 @@ public class SimpleDataProvider {
     @DataProvider(name = "empDataProvider")
     public static Iterator<Object[]> empDataProvider(){
         ExcelDataReader reader = new ExcelDataReader();
-        return reader.readExcelData("Dashboard",true).iterator();
+        List<Object[]> refindDataSet = new ArrayList<>();
+        final List<Object[]> data = reader.readExcelData("Dashboard", true);
+        for(Object[] objArray : data){
+            refindDataSet.add(new Object[]{objArray[0],objArray[1]});
+        }
+        return refindDataSet.iterator();
     }
 
 
