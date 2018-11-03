@@ -1,6 +1,10 @@
 hhfggf
 <<<<<<< HEAD
+<<<<<<< HEAD
 Testing 123
 =======
+=======
+Adding some git changes
+>>>>>>> ed80b353e229ddbf3611f45832b3c15a9c308446
 new changes to add 
 >>>>>>> 220b9bf42120a071269155fe8b2593dce80a881f
