@@ -6,8 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-public class ContactSalePage {
-    WebDriver driver;
+public class ContactSalePage extends BasePageObject {
 
     @FindBy(css = "#email")
     WebElement emailInput;
@@ -43,7 +42,7 @@ public class ContactSalePage {
     WebElement submitBtn;
 
     public ContactSalePage(WebDriver driver){
-        this.driver = driver;
+        super(driver);
         PageFactory.initElements(driver,this);
     }
 

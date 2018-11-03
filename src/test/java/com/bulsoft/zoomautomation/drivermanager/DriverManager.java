@@ -10,7 +10,8 @@ public class DriverManager {
 
     private String browerType = DriverConfig.getPropertyValue("browerType");
 
-    private  static WebDriver driver;
+    private  WebDriver driver;
+    private static DriverManager instance;
 
     private DriverManager(){
         if(browerType.equals(Constants.CHROME)){
@@ -24,12 +25,14 @@ public class DriverManager {
         }
 
     }
-    public static WebDriver getInstance(){
-        if(driver==null){
-            new DriverManager();
+    public static DriverManager getInstance(){
+        if(instance==null){
+           instance =   new DriverManager();
         }
-        return driver;
+        return instance;
     }
 
-
+    public WebDriver getDriver() {
+        return driver;
+    }
 }

@@ -21,13 +21,13 @@ public class ScreenShotListener extends TestListenerAdapter {
     @Override
     public void onTestFailure(ITestResult tr) {
         super.onTestFailure(tr);
-        CommonUtils.takeScreenCapture(DriverManager.getInstance(),tr.getName(), Constants.FAIL);
+        CommonUtils.takeScreenCapture(DriverManager.getInstance().getDriver(),tr.getName(), Constants.FAIL);
 
     }
 
     @Override
     public void onTestSuccess(ITestResult tr) {
         super.onTestSuccess(tr);
-        CommonUtils.takeScreenCapture(DriverManager.getInstance(),tr.getName(), Constants.PASS);
+        CommonUtils.takeScreenCapture(DriverManager.getInstance().getDriver(),tr.getName(), Constants.PASS);
     }
 }

@@ -23,7 +23,7 @@ public class ContactPageTest {
 
     @BeforeSuite
     public void setUp(){
-        driver = DriverManager.getInstance();
+        driver = DriverManager.getInstance().getDriver();
         driver.get(DriverConfig.getPropertyValue("site.url"));
         navigation = new MainNavigation(driver);
     }
