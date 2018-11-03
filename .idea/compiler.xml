@@ -9,5 +9,8 @@
         <module name="zoomauotmation" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zoomauotmation" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
