@@ -9,8 +9,10 @@ import java.io.FileInputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.util.Date;
 
 public class CommonUtils {
 
@@ -42,7 +44,10 @@ public class CommonUtils {
     }
 
     public static String getFileName(String testCaseName){
-        return "ScreenShot_"+testCaseName+"_"+ LocalDate.now()+"_"+ LocalTime.now()+".png";
+
+        SimpleDateFormat format = new SimpleDateFormat("yyyyMMddHHmmss");
+        String fileFormat = format.format(new Date());
+        return "ScreenShot_"+testCaseName+"_"+fileFormat+".png";
     }
 
 }
