@@ -114,6 +114,47 @@ public class ContactSalePage extends BasePageObject {
     }
 
 
+    public WebElement getEmailInput() {
+        return emailInput;
+    }
 
+    public WebElement getCompanyNameInput() {
+        return companyNameInput;
+    }
 
+    public WebElement getFirstNameInput() {
+        return firstNameInput;
+    }
+
+    public WebElement getLastNameInput() {
+        return lastNameInput;
+    }
+
+    public WebElement getEmployeeCountSelect() {
+        return employeeCountSelect;
+    }
+
+    public WebElement getPhoneNumberInput() {
+        return phoneNumberInput;
+    }
+
+    public WebElement getCountrySelect() {
+        return countrySelect;
+    }
+
+    public WebElement getStateProvinceSelect() {
+        return stateProvinceSelect;
+    }
+
+    public WebElement getAdditionalInfoTxtArea() {
+        return additionalInfoTxtArea;
+    }
+
+    public WebElement getZipCode() {
+        return zipCode;
+    }
+
+    public WebElement getSubmitBtn() {
+        return submitBtn;
+    }
 }
