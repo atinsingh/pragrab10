@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="580dfa3f-c541-45bd-9541-a299373b959c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/domain/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/domain/UserDetails.java" afterDir="false" />
+    <list default="true" id="580dfa3f-c541-45bd-9541-a299373b959c" name="Default Changelist" comment="Changed the Remote Driver Setting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/drivermanager/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/drivermanager/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/AnotherAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/AnotherAuthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/driver.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/driver.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,16 +38,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="4314" />
-          <entry key="properties" value="8" />
-          <entry key="txt" value="61" />
+          <entry key="properties" value="16" />
+          <entry key="txt" value="95" />
           <entry key="xml" value="230" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="4314" />
-          <entry key="PLAIN_TEXT" value="61" />
-          <entry key="Properties" value="8" />
+          <entry key="PLAIN_TEXT" value="95" />
+          <entry key="Properties" value="16" />
           <entry key="XML" value="230" />
         </counts>
       </usages-collector>
@@ -95,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/drivermanager/DriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+            <state relative-caret-position="120">
+              <caret line="26" column="52" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="52" />
               <folding>
                 <element signature="e#1778#1779#0" expanded="true" />
                 <element signature="e#1807#1808#0" expanded="true" />
@@ -190,11 +187,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/driver.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="88">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -240,7 +237,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/pageobjects/MainNavigation.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/SimpleTest.java" />
         <option value="$PROJECT_DIR$/zoom-testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/resources/driver.properties" />
         <option value="$PROJECT_DIR$/src/test/resources/index.html" />
         <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/pageobjects/ContactSalePage.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
@@ -257,6 +253,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/domain/Blog.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/AnotherAuthTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/drivermanager/DriverManager.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/driver.properties" />
       </list>
     </option>
   </component>
@@ -360,29 +357,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zoomauotmation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selproject" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zoomauotmation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selproject" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zoomauotmation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selproject" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zoomauotmation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selproject" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="screenshot" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -578,7 +552,7 @@
       <workItem from="1542389334334" duration="6141000" />
       <workItem from="1543069287384" duration="9316000" />
       <workItem from="1543635540544" duration="2427000" />
-      <workItem from="1543697418011" duration="305000" />
+      <workItem from="1543697418011" duration="682000" />
     </task>
     <task id="LOCAL-00001" summary="Added the Remote WebDriver">
       <created>1541873671934</created>
@@ -594,12 +568,12 @@
       <option name="project" value="LOCAL" />
       <updated>1543073413773</updated>
     </task>
-    <task id="LOCAL-00003" summary="Added DataProvider Function, and ExcelReading">
-      <created>1541123602082</created>
+    <task id="LOCAL-00003" summary="Changed the Remote Driver Setting">
+      <created>1543697821220</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1541123602082</updated>
+      <updated>1543697821220</updated>
     </task>
     <task id="LOCAL-00004" summary="Updated ExcelReader for Proper CellType">
       <created>1541124683593</created>
@@ -608,13 +582,10 @@
       <option name="project" value="LOCAL" />
       <updated>1541124683593</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnotherAuthTest_testGetBlogs - 2018.11.24 at 10h 25m 54s.xml">
-      <configuration name="AnotherAuthTest.testGetBlogs" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="AnotherAuthTest_testGetBlogs - 2018.11.24 at 10h 28m 23s.xml">
       <configuration name="AnotherAuthTest.testGetBlogs" configurationId="TestNG" />
     </history-entry>
@@ -642,9 +613,12 @@
     <history-entry file="ContactPageTest - 2018.11.30 at 22h 47m 03s.xml">
       <configuration name="ContactPageTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ContactPageTest - 2018.12.01 at 16h 02m 19s.xml">
+      <configuration name="ContactPageTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33274000" />
+    <option name="totallyTimeSpent" value="33651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="997" extended-state="6" />
@@ -659,7 +633,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.54892206" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5480663" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39903846" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -667,7 +641,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5742251" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.57348067" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -694,7 +668,8 @@
     <MESSAGE value="Updated ExcelReader for Proper CellType" />
     <MESSAGE value="Added the Remote WebDriver" />
     <MESSAGE value="Added RestAssurancd classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added RestAssurancd classes" />
+    <MESSAGE value="Changed the Remote Driver Setting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the Remote Driver Setting" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/pageobjects/ContactSalesResponsePage.java">
@@ -910,13 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/driver.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/RestAPITest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -943,12 +911,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/drivermanager/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+        <state relative-caret-position="120">
+          <caret line="26" column="52" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="52" />
           <folding>
             <element signature="e#1778#1779#0" expanded="true" />
             <element signature="e#1807#1808#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/driver.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
