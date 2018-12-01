@@ -24,12 +24,17 @@ public class DriverManager {
             System.setProperty("webdriver.chrome.driver",DriverConfig.getPropertyValue("chrome.driver"));
             DesiredCapabilities capabilities = new DesiredCapabilities();
             //capabilities.setPlatform(Platform.MAC);
-            capabilities.setBrowserName("chrome");
-            try {
-                driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities) ;
-            }catch (Exception ex){
+            if(DriverConfig.getPropertyValue("remote").equals("true")){
+                capabilities.setBrowserName("chrome");
+                try {
+                    driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities) ;
+                }catch (Exception ex){
 
+                }
+            }else{
+                driver = new ChromeDriver();
             }
+
         }else {
             if(browerType.equals(Constants.FIREFOX)){
                 System.setProperty("webdriver.gecko.driver",DriverConfig.getPropertyValue("firefox.driver"));

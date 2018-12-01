@@ -1,6 +1,8 @@
 package com.bulsoft.zoomautomation.testcases;
 
 import com.bulsoft.zoomautomation.domain.Auth;
+import com.bulsoft.zoomautomation.domain.Blog;
+import com.bulsoft.zoomautomation.domain.UserDetails;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.ResponseBody;
@@ -11,6 +13,7 @@ import org.testng.annotations.Test;
 import org.hamcrest.Matchers;
 
 import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.when;
 import static org.hamcrest.CoreMatchers.equalTo;
 
 public class AnotherAuthTest {
@@ -51,6 +54,35 @@ public class AnotherAuthTest {
                     .get("/api/blogs").then()
                     .statusCode(200)
                     .and()
-                    .body("[1].id",equalTo(1051));
+                    .body("[0].id",equalTo(1051))
+                    .and()
+                    .body("[0].user.id",equalTo(5));
+    }
+
+
+    @Test
+    public void postBlogTest(){
+
+     UserDetails details =   given()
+                .header("Authorization", authToken)
+                .header("Accept", ContentType.JSON)
+                .pathParam("login","admin")
+                .when()
+                .get("/api/users/{login}").getBody().as(UserDetails.class);
+
+        System.out.println(details);
+
+        Blog blog = new Blog();
+        blog.setUser(details);
+        blog.setHandle("tech");
+        blog.setName("RestAssured Testing");
+        given()
+                .header("Authorization", authToken)
+                .header("Accept", ContentType.JSON)
+                .header("Content-Type",ContentType.JSON )
+                .body(blog)
+                .when()
+                .post("/api/blogs").body().prettyPrint();
+
     }
 }
