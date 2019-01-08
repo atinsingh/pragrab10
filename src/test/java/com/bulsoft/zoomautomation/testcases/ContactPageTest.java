@@ -37,6 +37,9 @@ public class ContactPageTest {
         navigation = new MainNavigation(driver);
     }
 
+
+
+
     @Test
     public void testcase1(){
         contactSalePage= navigation.clickOnContactSalesLink();

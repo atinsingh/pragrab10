@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="580dfa3f-c541-45bd-9541-a299373b959c" name="Default Changelist" comment="Changed the Remote Driver Setting">
+    <list default="true" id="580dfa3f-c541-45bd-9541-a299373b959c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/pageobjects/FAQComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/FAQTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/ContactPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/ContactPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/SimpleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/ExcelDataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/ExcelDataReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/driver.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/driver.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,8 +22,9 @@
     <session id="-259846036">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="2" />
-          <entry key="java" value="26" />
+          <entry key="groovy" value="1" />
+          <entry key="html" value="3" />
+          <entry key="java" value="45" />
           <entry key="log" value="2" />
           <entry key="png" value="2" />
           <entry key="properties" value="2" />
@@ -27,9 +33,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
+          <entry key="Groovy" value="1" />
+          <entry key="HTML" value="3" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="45" />
           <entry key="Log" value="2" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="4" />
@@ -37,45 +44,74 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4314" />
+          <entry key="html" value="1" />
+          <entry key="java" value="5681" />
           <entry key="properties" value="16" />
-          <entry key="txt" value="95" />
+          <entry key="txt" value="118" />
           <entry key="xml" value="230" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4314" />
-          <entry key="PLAIN_TEXT" value="95" />
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="5681" />
+          <entry key="PLAIN_TEXT" value="118" />
           <entry key="Properties" value="16" />
           <entry key="XML" value="230" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/AnotherAuthTest.java">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/pageobjects/FAQComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1276">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="601">
+              <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/FAQTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/pageobjects/BasePageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -83,136 +119,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/pageobjects/ContactSalePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2464">
+            <state relative-caret-position="1650">
               <caret line="116" column="39" selection-start-line="116" selection-start-column="39" selection-end-line="116" selection-end-column="39" />
               <folding>
                 <element signature="e#3021#3022#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/drivermanager/DriverManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="26" column="52" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="52" />
-              <folding>
-                <element signature="e#1778#1779#0" expanded="true" />
-                <element signature="e#1807#1808#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/domain/UserDetails.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1694">
-              <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
-              <folding>
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#776#777#0" expanded="true" />
-                <element signature="e#818#819#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
-                <element signature="e#884#885#0" expanded="true" />
-                <element signature="e#912#913#0" expanded="true" />
-                <element signature="e#954#955#0" expanded="true" />
-                <element signature="e#988#989#0" expanded="true" />
-                <element signature="e#1023#1024#0" expanded="true" />
-                <element signature="e#1054#1055#0" expanded="true" />
-                <element signature="e#1102#1103#0" expanded="true" />
-                <element signature="e#1142#1143#0" expanded="true" />
-                <element signature="e#1176#1177#0" expanded="true" />
-                <element signature="e#1206#1207#0" expanded="true" />
-                <element signature="e#1252#1253#0" expanded="true" />
-                <element signature="e#1290#1291#0" expanded="true" />
-                <element signature="e#1326#1327#0" expanded="true" />
-                <element signature="e#1358#1359#0" expanded="true" />
-                <element signature="e#1408#1409#0" expanded="true" />
-                <element signature="e#1450#1451#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/domain/Auth.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-              <folding>
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/AutheticationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="28" column="36" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/ContactPageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/driver.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/RestAPITest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="76" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="76" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/utils/CommonUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -226,6 +137,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>td-help-topics-link</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -235,14 +151,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/pageobjects/BasePageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/pageobjects/ContactSalesResponsePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/pageobjects/MainNavigation.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/SimpleTest.java" />
         <option value="$PROJECT_DIR$/zoom-testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/resources/index.html" />
         <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/pageobjects/ContactSalePage.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/reports/HTMLReports.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/ContactPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/utils/CommonUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/listeners/ScreenShotListener.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -253,7 +166,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/domain/Blog.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/AnotherAuthTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/drivermanager/DriverManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/SimpleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/ExcelDataReader.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/index.html" />
         <option value="$PROJECT_DIR$/src/test/resources/driver.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/ContactPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/pageobjects/FAQComponent.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/FAQTest.java" />
       </list>
     </option>
   </component>
@@ -264,9 +183,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="54" />
-    <option name="width" value="1041" />
-    <option name="height" value="712" />
+    <option name="x" value="22" />
+    <option name="y" value="23" />
+    <option name="width" value="1239" />
+    <option name="height" value="725" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -274,7 +194,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -349,7 +268,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zoomautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="testdata" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zoomauotmation" type="b2602c69:ProjectViewProjectNode" />
@@ -362,12 +281,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543677734614" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545682503130" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -386,7 +307,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ContactPageTest">
+  <component name="RunManager" selected="TestNG.FAQTest.tc1">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -405,25 +326,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnotherAuthTest.authTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bulsoft.zoomautomation.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bulsoft.zoomautomation.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.bulsoft.zoomautomation.testcases.AnotherAuthTest" />
-      <option name="METHOD_NAME" value="authTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AnotherAuthTest.postBlogTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selproject" />
       <extension name="coverage">
@@ -435,44 +337,6 @@
       <option name="PACKAGE_NAME" value="com.bulsoft.zoomautomation.testcases" />
       <option name="MAIN_CLASS_NAME" value="com.bulsoft.zoomautomation.testcases.AnotherAuthTest" />
       <option name="METHOD_NAME" value="postBlogTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnotherAuthTest.testGetBlogs" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bulsoft.zoomautomation.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bulsoft.zoomautomation.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.bulsoft.zoomautomation.testcases.AnotherAuthTest" />
-      <option name="METHOD_NAME" value="testGetBlogs" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AutheticationTest.readUser" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selproject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bulsoft.zoomautomation.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bulsoft.zoomautomation.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.bulsoft.zoomautomation.testcases.AutheticationTest" />
-      <option name="METHOD_NAME" value="readUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
@@ -498,6 +362,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FAQTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bulsoft.zoomautomation.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bulsoft.zoomautomation.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.bulsoft.zoomautomation.testcases.FAQTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FAQTest.tc1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bulsoft.zoomautomation.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bulsoft.zoomautomation.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.bulsoft.zoomautomation.testcases.FAQTest" />
+      <option name="METHOD_NAME" value="tc1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleTest.testcase1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bulsoft.zoomautomation.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bulsoft.zoomautomation.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.bulsoft.zoomautomation.testcases.SimpleTest" />
+      <option name="METHOD_NAME" value="testcase1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
@@ -516,19 +435,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.AutheticationTest.readUser" />
-      <item itemvalue="TestNG.AnotherAuthTest.authTest" />
-      <item itemvalue="TestNG.AnotherAuthTest.testGetBlogs" />
       <item itemvalue="TestNG.AnotherAuthTest.postBlogTest" />
       <item itemvalue="TestNG.ContactPageTest" />
+      <item itemvalue="TestNG.SimpleTest.testcase1" />
+      <item itemvalue="TestNG.FAQTest" />
+      <item itemvalue="TestNG.FAQTest.tc1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FAQTest.tc1" />
+        <item itemvalue="TestNG.FAQTest" />
+        <item itemvalue="TestNG.SimpleTest.testcase1" />
         <item itemvalue="TestNG.ContactPageTest" />
         <item itemvalue="TestNG.AnotherAuthTest.postBlogTest" />
-        <item itemvalue="TestNG.AnotherAuthTest.testGetBlogs" />
-        <item itemvalue="TestNG.AnotherAuthTest.authTest" />
-        <item itemvalue="TestNG.AutheticationTest.readUser" />
       </list>
     </recent_temporary>
   </component>
@@ -552,7 +471,17 @@
       <workItem from="1542389334334" duration="6141000" />
       <workItem from="1543069287384" duration="9316000" />
       <workItem from="1543635540544" duration="2427000" />
-      <workItem from="1543697418011" duration="682000" />
+      <workItem from="1543697418011" duration="2689000" />
+      <workItem from="1544147463473" duration="20000" />
+      <workItem from="1544282278009" duration="418000" />
+      <workItem from="1544901193877" duration="4169000" />
+      <workItem from="1545176481431" duration="2194000" />
+      <workItem from="1545354487170" duration="4748000" />
+      <workItem from="1545416121091" duration="38000" />
+      <workItem from="1545491541387" duration="558000" />
+      <workItem from="1545595651983" duration="503000" />
+      <workItem from="1545794486836" duration="137000" />
+      <workItem from="1546916887588" duration="1765000" />
     </task>
     <task id="LOCAL-00001" summary="Added the Remote WebDriver">
       <created>1541873671934</created>
@@ -575,56 +504,56 @@
       <option name="project" value="LOCAL" />
       <updated>1543697821220</updated>
     </task>
-    <task id="LOCAL-00004" summary="Updated ExcelReader for Proper CellType">
-      <created>1541124683593</created>
+    <task id="LOCAL-00004" summary="Added remote Property">
+      <created>1543698191678</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1541124683593</updated>
+      <updated>1543698191678</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnotherAuthTest_testGetBlogs - 2018.11.24 at 10h 28m 23s.xml">
-      <configuration name="AnotherAuthTest.testGetBlogs" configurationId="TestNG" />
+    <history-entry file="FAQTest - 2018.12.20 at 20h 54m 22s.xml">
+      <configuration name="FAQTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AnotherAuthTest_testGetBlogs - 2018.11.24 at 10h 42m 59s.xml">
-      <configuration name="AnotherAuthTest.testGetBlogs" configurationId="TestNG" />
+    <history-entry file="FAQTest - 2018.12.20 at 20h 58m 50s.xml">
+      <configuration name="FAQTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AnotherAuthTest_testGetBlogs - 2018.11.24 at 10h 43m 39s.xml">
-      <configuration name="AnotherAuthTest.testGetBlogs" configurationId="TestNG" />
+    <history-entry file="FAQTest - 2018.12.20 at 20h 59m 41s.xml">
+      <configuration name="FAQTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AnotherAuthTest_postBlogTest - 2018.11.24 at 11h 06m 41s.xml">
-      <configuration name="AnotherAuthTest.postBlogTest" configurationId="TestNG" />
+    <history-entry file="FAQTest - 2018.12.20 at 21h 11m 18s.xml">
+      <configuration name="FAQTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AnotherAuthTest_postBlogTest - 2018.11.24 at 11h 07m 53s.xml">
-      <configuration name="AnotherAuthTest.postBlogTest" configurationId="TestNG" />
+    <history-entry file="FAQTest_tc1 - 2018.12.20 at 21h 18m 43s.xml">
+      <configuration name="FAQTest.tc1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AnotherAuthTest_postBlogTest - 2018.11.24 at 11h 10m 48s.xml">
-      <configuration name="AnotherAuthTest.postBlogTest" configurationId="TestNG" />
+    <history-entry file="FAQTest_tc1 - 2018.12.20 at 21h 21m 16s.xml">
+      <configuration name="FAQTest.tc1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AnotherAuthTest_postBlogTest - 2018.11.24 at 11h 18m 31s.xml">
-      <configuration name="AnotherAuthTest.postBlogTest" configurationId="TestNG" />
+    <history-entry file="FAQTest_tc1 - 2018.12.20 at 21h 23m 23s.xml">
+      <configuration name="FAQTest.tc1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AnotherAuthTest_postBlogTest - 2018.11.24 at 11h 20m 18s.xml">
-      <configuration name="AnotherAuthTest.postBlogTest" configurationId="TestNG" />
+    <history-entry file="FAQTest_tc1 - 2018.12.20 at 21h 23m 58s.xml">
+      <configuration name="FAQTest.tc1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactPageTest - 2018.11.30 at 22h 47m 03s.xml">
-      <configuration name="ContactPageTest" configurationId="TestNG" />
+    <history-entry file="FAQTest_tc1 - 2018.12.20 at 21h 26m 03s.xml">
+      <configuration name="FAQTest.tc1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactPageTest - 2018.12.01 at 16h 02m 19s.xml">
-      <configuration name="ContactPageTest" configurationId="TestNG" />
+    <history-entry file="FAQTest_tc1 - 2018.12.23 at 15h 12m 06s.xml">
+      <configuration name="FAQTest.tc1" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33651000" />
+    <option name="totallyTimeSpent" value="50208000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="997" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="730" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2593184" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1736672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -632,8 +561,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5480663" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296875" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3294702" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39903846" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -641,7 +570,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.57348067" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.8411669" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -669,7 +598,8 @@
     <MESSAGE value="Added the Remote WebDriver" />
     <MESSAGE value="Added RestAssurancd classes" />
     <MESSAGE value="Changed the Remote Driver Setting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed the Remote Driver Setting" />
+    <MESSAGE value="Added remote Property" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added remote Property" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/pageobjects/ContactSalesResponsePage.java">
@@ -693,16 +623,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/SimpleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/index.html" />
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -717,25 +638,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/logs/zoom-automation_2018-11-10.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshot/failure/ScreenShot_testcase2_20181103132919.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshot/pass/ScreenShot_testcase2_20181103134830.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/logs/zoom-automation.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/logs/zoom-automation_2018-11-10.log" />
+    <entry file="file://$PROJECT_DIR$/target/screenshot/failure/ScreenShot_testcase2_20181103132919.png" />
+    <entry file="file://$PROJECT_DIR$/target/screenshot/pass/ScreenShot_testcase2_20181103134830.png" />
+    <entry file="file://$PROJECT_DIR$/target/logs/zoom-automation.log" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/listeners/ScreenShotListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -771,124 +677,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/pageobjects/BasePageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/domain/Blog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/AnotherAuthTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/pageobjects/ContactSalePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2464">
-          <caret line="116" column="39" selection-start-line="116" selection-start-column="39" selection-end-line="116" selection-end-column="39" />
-          <folding>
-            <element signature="e#3021#3022#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/domain/UserDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1694">
+        <state relative-caret-position="1440">
           <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
-          <folding>
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1206#1207#0" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
-            <element signature="e#1290#1291#0" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
-            <element signature="e#1358#1359#0" expanded="true" />
-            <element signature="e#1408#1409#0" expanded="true" />
-            <element signature="e#1450#1451#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/domain/Auth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="192">
           <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/AutheticationTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8-sources.jar!/org/testng/SuiteRunnerWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1400">
+          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/RestAPITest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/AnotherAuthTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="76" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="76" />
+        <state relative-caret-position="1450">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -897,33 +717,122 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/utils/CommonUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
+        <state relative-caret-position="1000">
           <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/ContactPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$USER_HOME$/Downloads/-.groovy">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/index.html" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/drivermanager/DriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="52" />
-          <folding>
-            <element signature="e#1778#1779#0" expanded="true" />
-            <element signature="e#1807#1808#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-158">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/driver.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="25">
+          <caret line="1" column="84" selection-start-line="1" selection-start-column="84" selection-end-line="1" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/SimpleTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/RestAPITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="26" column="76" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/ContactPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="35" column="62" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/DBDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/DatabaseReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/ExcelDataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testdata/SimpleDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/AutheticationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/pageobjects/BasePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/pageobjects/ContactSalePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="116" column="39" selection-start-line="116" selection-start-column="39" selection-end-line="116" selection-end-column="39" />
+          <folding>
+            <element signature="e#3021#3022#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/testcases/FAQTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bulsoft/zoomautomation/pageobjects/FAQComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
